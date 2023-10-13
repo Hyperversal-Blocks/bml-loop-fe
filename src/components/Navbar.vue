@@ -8,7 +8,7 @@ const {connectMetamask, account, ethEnabled} = useMetamask();
 <template>
   <header class="header">
     <div class="logo">
-      <img src="../assets/AV-Logo.png" alt="logo">
+      <img src="../assets/bmlloop-Logo.png" alt="logo">
     </div>
 
     <div class="menu">
