@@ -58,4 +58,4 @@ BML Loop is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- [Name of Contributors or third-party modules you've used]
+- TBD
