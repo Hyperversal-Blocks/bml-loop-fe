@@ -7,9 +7,14 @@ import Navbar from "@/components/Navbar.vue";
 
 <template>
   <div class="app">
-    <Navbar/>
-    <Sidebar/>
-    <router-view/>
+    <div class="header">
+      <Navbar/>
+    </div>
+    <div class="body">
+      <Sidebar/>
+      <router-view/>
+    </div>
+    <div class="footer"></div>
   </div>
 </template>
 
@@ -46,7 +51,16 @@ button {
 }
 
 .app {
+
   display: flex;
+  flex-direction: column;
+
+  .body {
+    display: flex;
+  }
+
+  .header {
+  }
 
   main {
     flex: 1 1 0;

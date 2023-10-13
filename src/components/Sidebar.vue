@@ -11,9 +11,6 @@ const ToggleMenu = () => {
 
 <template>
   <aside :class="`${is_expanded && 'is-expanded'}`">
-    <div class="logo">
-      <img src="../assets/AV-Logo.png" alt="logo">
-    </div>
 
     <div class="menu-toggle-wrap">
       <button class="menu-toggle" @click="ToggleMenu">
@@ -67,14 +64,6 @@ aside {
 
   transition: 0.2s ease-out;
 
-  .logo {
-    margin-bottom: 1rem;
-
-    img {
-      width: 2rem;
-    }
-  }
-
   .menu-toggle-wrap {
     display: flex;
     justify-content: flex-end;
@@ -115,7 +104,7 @@ aside {
   }
 
   .menu {
-    margin: 0 -1rem;
+    margin: 1 -1rem;
 
     .button {
       display: flex;
