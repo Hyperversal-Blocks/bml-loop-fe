@@ -11,6 +11,8 @@ const ToggleMenu = () => {
 
 <template>
   <aside :class="`${is_expanded && 'is-expanded'}`">
+    <div class="toggle">
+    </div>
 
     <div class="menu-toggle-wrap">
       <button class="menu-toggle" @click="ToggleMenu">
@@ -64,10 +66,13 @@ aside {
 
   transition: 0.2s ease-out;
 
+  .toggle {
+    margin: 1rem;
+  }
+
   .menu-toggle-wrap {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 1rem;
 
     position: relative;
     top: 0;
@@ -104,7 +109,7 @@ aside {
   }
 
   .menu {
-    margin: 1 -1rem;
+    margin: 0 -1rem;
 
     .button {
       display: flex;
@@ -143,7 +148,7 @@ aside {
     width: var(--sidebar-width);
 
     .menu-toggle-wrap {
-      top: -3rem;
+      top: -2rem;
 
       .menu-toggle {
         transform: rotate(-180deg);

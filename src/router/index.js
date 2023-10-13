@@ -1,13 +1,13 @@
 import {createRouter, createWebHistory} from "vue-router";
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-import New from "@/views/new/New.vue";
-import Setup from "@/views/new/Setup.vue";
-import Recruit from "@/views/new/Recruit.vue";
-import Survey from "@/views/new/Survey.vue";
-import Screening from "@/views/new/Screening.vue";
-import OptionalSettings from "@/views/new/OptionalSettings.vue";
-import Launch from "@/views/new/Launch.vue";
+import New from "@/views/app/new/New.vue";
+import Setup from "@/views/app/new/Setup.vue";
+import Recruit from "@/views/app/new/Recruit.vue";
+import Survey from "@/views/app/new/Survey.vue";
+import Screening from "@/views/app/new/Screening.vue";
+import OptionalSettings from "@/views/app/new/OptionalSettings.vue";
+import Launch from "@/views/app/new/Launch.vue";
 
 const router = createRouter({
         history: createWebHistory(),

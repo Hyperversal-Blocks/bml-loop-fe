@@ -2,7 +2,6 @@
 <script setup>
 import Sidebar from './components/Sidebar.vue'
 import Navbar from "@/components/Navbar.vue";
-
 </script>
 
 <template>
@@ -16,6 +15,8 @@ import Navbar from "@/components/Navbar.vue";
     </div>
     <div class="footer"></div>
   </div>
+
+
 </template>
 
 <style lang="scss">
@@ -27,7 +28,7 @@ import Navbar from "@/components/Navbar.vue";
   --dark-alt: #334155;
   --less-dark: #40435C;
   --light: #f1f5f9;
-  --sidebar-width: 300px;
+  --sidebar-width: 200px;
   --navbar-width:150px
 }
 
