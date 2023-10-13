@@ -1,8 +1,9 @@
 <script lang="ts" setup>
 import {defineComponent} from 'vue';
 import useMetamask from '@/composables/useWallet'; // Adjust path accordingly
+import MetaMaskAlert from '@/views/web3/MetamaskAlert.vue'; // Update path as needed
 
-const {connectMetamask, account, ethEnabled} = useMetamask();
+const {connectMetamask, account, ethEnabled, showError} = useMetamask();
 </script>
 
 <template>
@@ -38,6 +39,7 @@ const {connectMetamask, account, ethEnabled} = useMetamask();
     </div>
 
   </header>
+  <meta-mask-alert v-if="showError" @close="showError = false" />
 </template>
 
 <style lang="scss" scoped>
