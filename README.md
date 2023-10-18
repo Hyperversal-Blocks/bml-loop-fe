@@ -2,7 +2,7 @@
 
 ![BML Loop Logo](./src/assets/bmlloop-Logo.png)
 
-Welcome to BML Loop, your one-stop solution for streamlined, secure, and seamless beta testing experiences, bridging the gap between companies and beta testers with the power of blockchain.
+Welcome to [BML Loop](https://bmlloop.com), your one-stop solution for streamlined, secure, and seamless beta testing experiences, bridging the gap between companies and beta testers with the power of blockchain.
 
 ## Overview
 

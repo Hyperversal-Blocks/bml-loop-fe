@@ -35,7 +35,7 @@ const {connectMetamask, account, ethEnabled, showError} = useMetamask();
         <span class="text">Connect Wallet</span>
         <img src="../assets/metamask-icon.png" alt="Connect Wallet" class="ico"/>
       </button>
-      <p v-else>Your account: {{ account }}</p>
+      <p class="wallet-address" v-else>Your account: {{ account }}</p>
     </div>
 
   </header>
@@ -52,7 +52,6 @@ header {
   padding: 1rem;
   background-color: var(--dark);
   color: var(--light);
-
 
   .wallet-button {
     background: none;
@@ -81,7 +80,6 @@ header {
       transform: scale(1.1);
     }
   }
-
 
   .wallet-button:hover .text {
     opacity: 0;
